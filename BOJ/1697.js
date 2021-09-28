@@ -4,8 +4,6 @@ const input = require('fs').readFileSync(filePath).toString().trim().split(' ').
 
 const solution = function (n, k) {
     const visted = new Array(100001).fill(false);
-    let cnt = 0;
-    let res = 1;
     if (n === k) {
         console.log(0);
     } else {
